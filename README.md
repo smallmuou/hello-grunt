@@ -28,7 +28,7 @@ cd hello-grunt
 npm install
 grunt
 </pre>
-执行上述前，请按照nodejs、npm和grunt-cli，详见[grunt快速入门](http://www.gruntjs.net/getting-started)
+执行上述前，请先安装nodejs、npm和grunt-cli，详见[grunt快速入门](http://www.gruntjs.net/getting-started)
 
 ## 许可
 

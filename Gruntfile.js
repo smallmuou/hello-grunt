@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        uglify: {
+        uglify: { //压缩配置
             options: {
                 strpBanners:true,
                 banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -11,7 +11,7 @@ module.exports = function(grunt) {
                 dest: 'build/<%= pkg.name %>.min.js'
             }
         },
-        watch: {
+        watch: { //监视文件配置
             build: {
                 files: ['src/*.js'],
                 tasks: ['uglify'],
