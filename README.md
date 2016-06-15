@@ -14,7 +14,7 @@
 └── test - 测试目录
 </pre>
 
-grunt含有很多插件，其中grunt-contrib-是grunt官网出来的，可以到![grunt网站](http://www.gruntjs.net/plugins)搜索插件，这里对本例用到的几个插件进行说明：
+grunt含有很多插件，其中grunt-contrib-是grunt官网出来的，可以到[grunt网站](http://www.gruntjs.net/plugins)搜索插件，这里对本例用到的几个插件进行说明：
 
 * grunt-contrib-uglify  js压缩工具
 * grunt-contrib-watch  监视文件是否发生修改
@@ -28,7 +28,7 @@ cd hello-grunt
 npm install
 grunt
 </pre>
-执行上述前，请按照nodejs、npm和grunt-cli，详见![grunt快速入门](http://www.gruntjs.net/getting-started)
+执行上述前，请按照nodejs、npm和grunt-cli，详见[grunt快速入门](http://www.gruntjs.net/getting-started)
 
 ## 许可
 
